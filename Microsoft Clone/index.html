@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Microsoft Clone</title>
+</head>
+<body class="p-1">
+ <!-- NavBar Div -->
+    <div class="navbar flex justify-between items-center p-3 text-xs">
+
+
+        <div class=" HamBurger & SearchIcon flex justify-center items-center md:order-2">
+<!-- HamBurger -->
+        <div class="hamburger inline-block cursor-pointer md:hidden">
+            <div class="line h-[1px] bg-black w-5 mt-[4px]"></div>
+            <div class="line h-[1px] bg-black w-5 mt-[4px]"></div>
+            <div class="line h-[1px] bg-black w-5 mt-[4px]"></div>
+        </div>
+<!-- SearchIcon In Mobile-->
+        <div class="search md:hidden w-4 ml-4 mt-[2px]"><img src="iconmonstr-magnifier-1.svg" alt="" srcset=""></div>
+
+         </div>
+
+<!-- MicroSoft logo and Features List -->
+        <div class="MicroSoftLogo md:order-1 flex space-x-8 md:ml-12">
+             <div class="w-28"><img src="MicroSoftLogo.png" alt="" srcset=""></div>
+            <div class=" FeautresList w-fit"> 
+                <ul class=" space-y-3 mt-8 md:text-sm md:-translate-y-[9px] text-sm absolute -translate-x-[600px] md:-translate-x-0 md:mt-0 md:flex space-x-4 ">
+                    <li></li>
+                    <li class="hover:underline underline-offset-8 cursor-pointer decoration-black decoration-1">Microsoft 365</li>
+                    <li class="hover:underline underline-offset-8 cursor-pointer decoration-black decoration-1">Office</li>
+                    <li class="hover:underline underline-offset-8 cursor-pointer decoration-black decoration-1">Windows</li>
+                    <li class="hover:underline underline-offset-8 cursor-pointer decoration-black decoration-1">Surface</li>
+                    <li class="hover:underline underline-offset-8 cursor-pointer decoration-black decoration-1">Xbox</li>
+                    <li class="hover:underline underline-offset-8 cursor-pointer decoration-black decoration-1">Support</li>
+                </ul>
+       
+            </div>
+        </div>
+<!-- Cart, Account , AllMicrosoft and Search(upon md breakpoint) -->
+        <div class="cart Account and Search md:order-3 flex space-x-4 md:text-sm">
+                <div class="hidden md:block hover:underline underline-offset-8 cursor-pointer decoration-black decoration-1" > All Microsoft</div>
+                <div class="hidden md:block " > Search</div>
+                <div class=" search hidden md:block w-4 ml-4 mt-[2px]  cursor-pointer "><img src="iconmonstr-magnifier-1.svg" alt=""></div>
+                <div class="w-4 ml-4 mt-[2px] cursor-pointer "><img  src="iconmonstr-shopping-cart-3.svg" alt=""></div>
+                <div class="w-4 ml-4 mt-[2px] cursor-pointer "><img  src="iconmonstr-user-5.svg" alt=""></div>
+        </div>
+
+
+
+    </div>
+
+<!-- Slider #afd5f9 -->
+    <div class=" bg-white md:bg-background drop-shadow-lg slider flex flex-col-reverse md:flex-row md:py-11 md:ml-1">
+
+        <div class="left  space-y-4 p-6 px-7 md:bg-background md:pt-[100px] md:pl-[118px] ">
+            <h1 class="font-semibold text-2xl md:text-4xl">Microsoft 365</h1>
+            <p class="md:py-2">Turn your ideas into reality, stay safer online and off, and focus on what matters most with Microsoft 365 apps</p>
+            <div class="buttons space-x-0 md:space-x-10 md:py-2">
+                <button class=" font-semibold px-3 bg-blue-600 text-white p-2 rounded-sm hover:bg-blue-700">For 1 person</button>
+            <button class=" py-2  hover:underline underline-offset-2 font-semibold  bg-white text-blue-700 md:bg-background md:text-gray-950">For up to 6 people <img class=" hidden md:block absolute md:px-36 md:bottom-[158px] h-3 " src="next.png" alt="" srcset=""></button>
+            </div>
+            
+        </div>
+        <div class="right">
+
+            <img class="md:w-3/4" src="background.jpg" alt="">
+        </div>
+
+
+
+    </div>
+
+    <!-- Section 1 -->
+    <div class="pt-10 flex flex-col justify-center items-center md:flex-row md:space-x-12">
+
+<div class="icon1 space-y-2 md:mt-7">
+<img class="w-10 mx-auto" src="microsoft.webp" alt="">
+<h1 class="text-blue-600 underline underline-offset-2 text-base hover:text-black font-semibold cursor-pointer">Choose your Microsoft 365</h1>
+</div>
+
+
+<div class="icon2 space-y-2 mt-7">
+    <img class="w-10 mx-auto" src="ShopSurface.webp" alt="">
+    <h1 class="text-blue-600 underline underline-offset-2 text-base hover:text-black font-semibold cursor-pointer">Shop Surface devices</h1>
+</div>
+
+
+<div class="icon3 space-y-2 mt-7">
+    <img class="w-10 mx-auto" src="xbox.webp" alt="">
+    <h1 class="text-blue-600 underline underline-offset-2 text-base hover:text-black font-semibold cursor-pointer">Buy Xbox games and consoles</h1>
+</div>
+
+
+<div class="icon4 space-y-2 mt-7">
+    <img class="w-10 mx-auto" src="microsoft.webp" alt="">
+    <h1 class="text-blue-600 underline underline-offset-2 text-base hover:text-black font-semibold cursor-pointer">Get Windows 11</h1>
+</div>
+
+    </div>
+</body>
+</html>

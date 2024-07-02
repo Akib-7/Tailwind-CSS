@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+Only use @apply and @layer directives when a component say: a Button , is reused multiple times(atleast 5-6)
+class names should be understandable
+otherwise it is devised to use tailwind as inline classes otherwise it is no different than vanilla css if you have to check style.css again & again
+
+
+*/
+@layer components{
+    
+    .mainBtn{
+        @apply bg-slate-200 p-4 rounded-3xl hover:bg-yellow-500 active:bg-slate-200 hover:animate-bounce hover:font-semibold hover:text-white 
+    }
+
+}
